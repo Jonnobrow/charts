@@ -1,6 +1,6 @@
 ---
 apiVersion: v2
-appVersion: v0.8.1
+appVersion: v0.8.6
 description: Dendrite Matrix Homeserver
 name: dendrite
 version: 4.3.0
@@ -83,3 +83,7 @@ annotations:
   artifacthub.io/changes: |-
     - kind: changed
       description: Enable database configuration on a per-API (component) level
+    - kind: changed
+      description: Bump dendrite to v0.8.6
+    - kind: fixed
+      description: Fix syncapi version pinning

@@ -289,7 +289,7 @@ syncapi:
     repository: matrixdotorg/dendrite-polylith
     # -- image tag
     # @default -- chart.appVersion
-    tag: latest
+    tag:
     # -- image pull policy
     pullPolicy: IfNotPresent
   service:
